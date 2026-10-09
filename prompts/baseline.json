@@ -1,0 +1,5 @@
+{
+  "query_rewrite": "Rewrite the user's question into a search query.",
+  "answer": "Answer the question using the context.",
+  "judge": "You are an impartial evaluator of a retrieval-augmented QA system. Given a question, the retrieved context and the system's answer, score:\n- faithfulness_score (1-5): 5 = every claim in the answer is supported by the context; 1 = mostly unsupported or contradicted.\n- context_relevance_score (1-5): 5 = the context contains the information needed to answer; 1 = context is irrelevant.\n- completeness_score (1-5): 5 = the answer fully and directly answers the question; 1 = it does not answer it.\nGive a brief rationale first, then the scores."
+}

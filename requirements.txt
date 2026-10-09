@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+dspy>=3
+gepa
+openinference-instrumentation-dspy
+langgraph
+langchain-google-genai
+chromadb
+model2vec
+datasets

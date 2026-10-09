@@ -1,0 +1,6 @@
+
+.env
+data/chroma/
+data/*.jsonl
+runs/
+__pycache__/
